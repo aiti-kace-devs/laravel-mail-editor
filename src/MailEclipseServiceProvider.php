@@ -40,14 +40,13 @@ class MailEclipseServiceProvider extends ServiceProvider
     }
 
     /**
-     * Get the Telescope route group configuration array.
+     * Get the MailEclipse route group configuration array.
      *
      * @return array
      */
     private function routeConfiguration()
     {
         return [
-            'namespace' => 'Qoraiche\MailEclipse\Http\Controllers',
             'prefix' => config('maileclipse.path'),
             'middleware' => 'maileclipse',
         ];
