@@ -49,5 +49,11 @@
                 "MailEclipse": "Qoraiche\\MailEclipse\\Facades\\MailEclipse"
             }
         }
+    },
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/emtiazzahid/mocker"
     }
+]
 }
